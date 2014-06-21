@@ -1,0 +1,52 @@
+Идея за имена:
+
+OverAchiever
+Edufication
+EduFixcation
+Achievment Smasher
+Highment
+GreatGrades
+HackReports
+MidSchool Crisis
+Grader
+SchoolGeek
+GradeGeek
+EduStar
+BoreKiller
+BoredBust
+SystemBust
+Evolver
+SchoolKing
+GradeMaster
+SchoolZone
+Triumph
+Mastery
+Adventure
+Venture
+EduVenture
+
+Цел: Да бъде в училището по-приятна среда, по-забавна. 
+// Страничен ефект: Да насърчава и мотивира за по-високи оценки в 
+училище, социална активност.
+
+Eduvolver
+Education. Evolved. //Еmbroiled
+
+Игра - персонажи
+
+Според типа училище - езиково, математическо, етк... има пре-дефинирани 
+имена - талисмани. Много много персонажи - избор между тях.
+
+подобие на TopCoder
+
+Базов модел: безплатен
+Платен модел: на нива - клас и училище (payment годишен)
+Всяко училище и клас може да си поръча специален пакет - със собствени
+achievement-и. 
+
+Спонсорите може да раздават награди на най-добрите. 
+
+Alfa Testing: Ние
+Beta Testing: В 2-3 училища различни като вътрешна система
+
+
