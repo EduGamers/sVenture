@@ -1,9 +1,9 @@
-//Achievements! Wohoo
+﻿//Achievements! Wohoo
 //Class achievements
-- OnTimer - влез в час на време
+- Atomic clock - влез в час на време (от 200 пъти нагоре).
 - Sticky Chair - в рамките на един час (учебен) да не ставаш от стола
 - Gum on your chair - не сядай цял час.
-- Icky - седни на дъвка. (crowd validation?)
+- Icky - седни на дъвка. (crowd validation?) 
 - Fear Master - да не бъдеш изпитан по нито един предмет 2(3) поредни дни в изпитна седмица (requirement - да си в час)
 - Targer Locked - да бъдеш изпитан по всеки един предмет в един ден в изпитна седмица(event week)
 - Happy student - премини всички предмети успешно
@@ -16,9 +16,13 @@
 - Smart Ass - поправи учителя
 - Board Artist - Бъди(изпитан?) на дъската цял час
 - Kick it! - play sports!
+- Teacher's pet - Помогни/Асистирай на преподавателя поне с 1 урок
+- "This girl is on fire!" - Изкарай 6 на 5 поредни теста през учебната година.
+- Are you sure you're not cheating? - Изкарай 6 на 10 поредни изпита?
+- Pokemon master - Изкарай по една оценка от всички.
 
 //Outside class achievements
-- Tense meeting - присъствай на родителска среща
+- I think I have an arrhythmia  - присъствай на родителска среща
 - It's not over! - завърши средно образование
 - Mom's prized child - вземи си матурите с отличен (или над 5?)!
 - I'M IN! - вземи си матурите с отличен 6
