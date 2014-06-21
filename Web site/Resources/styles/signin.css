@@ -24,6 +24,7 @@ div #logo > img{
     max-width: 300px; 
     max-height: 300px;
 }
+
 body {
     color: white;
     font-size: 1em;
@@ -42,6 +43,7 @@ legend{
 fieldset{
     /*background-color: darkgreen;
     opacity: 0.4;*/
+    display: block;
     background-color: rgba(50,0,0,0.4);    /* 40% opaque red */  
     border: 2px solid white;
     border-radius: 5px;
@@ -65,7 +67,7 @@ label{
     font-size: 1em;
 }
 
-hr{
+hr {
     border: 1px solid white;
 }
 
@@ -77,10 +79,10 @@ input{
 
 
 #form-register{
-    display: none;
+    
 }
 
-a{
+a {
     display: inline-block;
     text-decoration: none;
     color: black;
@@ -110,4 +112,8 @@ button{
     border: none;
     background-color: white;
     opacity: 10;
+}
+
+.invisible {
+    display: none;
 }
