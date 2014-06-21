@@ -49,3 +49,36 @@ body footer {
 
 }
 
+@font-face
+{
+    font-family: Neutraface;
+    src: url(NeutraText-Book.ttf);
+}
+
+/*COLORS TO USE
+    #71be43 - green
+    #3d7337 - darker green
+    #334da0 - blue
+    #1d2453 - darker blue
+*/
+
+.logo {
+    margin: 0 auto;
+    font-size: 150px;
+    text-align: center;
+    font-family: Neutraface;
+    color: #3d7337;
+    background-color: #71be43;
+    width: 700px;
+    height: 100%;
+}
+.hover-element {
+    background-color: black;
+
+}
+.logo:hover {
+    -webkit-filter: blur(2px);
+}
+a {
+    text-decoration: none;
+}
