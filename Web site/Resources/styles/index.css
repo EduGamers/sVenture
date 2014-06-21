@@ -1,11 +1,19 @@
-﻿body, header, nav, section, aside, footer, div, ul, li, h1, h2, h3 {
+﻿@font-face
+{
+    font-family: Neutraface;
+    src: url(NeutraText-Book.ttf);
+}
+
+body, header, nav, section, aside, footer, div, ul, li, h1, h2, h3 {
     margin:0;
     padding:0;
     border:0;
     outline:0;
-    font-size:100%;
+    font-size: 1em;
     vertical-align:baseline;
     background:transparent;
+    font-family: Neutraface;
+
 }
 
 #wrapper {
@@ -21,6 +29,8 @@ header.main-header {
     width: 100%;
     height: 200px;
     border-bottom:  1px solid black;
+    background-color: #67ADF3;
+
 }
 
 section {
@@ -34,11 +44,7 @@ body > footer {
     width: 100%;
 }
 
-@font-face
-{
-    font-family: Neutraface;
-    src: url(NeutraText-Book.ttf);
-}
+
 
 /*COLORS TO USE
     #71be43 - green
@@ -48,15 +54,14 @@ body > footer {
 */
 
 .logo {
-    margin: 0 auto;
-    font-size: 150px;
-    text-align: center;
+    font-size: 5.5em;
+    text-align: left;
+    margin-left: 17px;
     font-family: Neutraface;
     color: #334da0;
-    background-color: #67ADF3;
-    width: 700px;
     height: 100%;
 }
+
 .hover-element {
     background-color: black;
 
@@ -66,4 +71,29 @@ body > footer {
 }
 a {
     text-decoration: none;
+}
+
+.nav-bar li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 25px;
+    margin-right: 5px;
+    background-color: #67ADF3;
+}
+
+.nav-bar li:active {
+    color: #334da0;
+}
+
+.nav-bar li:visited {
+    color: #334da0;
+}
+
+.nav-bar ul {
+    float: right;
+    margin-top: -65px;
+ }
+
+.last-li {
+    border-right: none;
 }
