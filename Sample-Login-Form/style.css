@@ -1,0 +1,113 @@
+﻿html,
+body,
+div,
+form,
+input,
+button,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/file.eot');
+    src: local('☺'), url('/fonts/HelveticaNeue-UltraLight.otf') format('woff'), url('/fonts/file.ttf') format('truetype');
+}
+div #logo{
+    position: absolute;
+    background-color: gray;
+}
+div #logo > img{
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+body {
+    color: white;
+    font-size: 1em;
+    font-family: Helvetica, Verdana, Geneva, 'DejaVu Sans', sans-serif;
+    background-color: green;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+legend{
+    font-weight: bold;
+}
+
+fieldset{
+    /*background-color: darkgreen;
+    opacity: 0.4;*/
+    background-color: rgba(50,0,0,0.4);    /* 40% opaque red */  
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+form{
+    padding: 10px;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    font-size: 1.3em;
+    color: white; 
+}
+
+label{
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+    font-size: 1em;
+}
+
+hr{
+    border: 1px solid white;
+}
+
+input{
+    background: none;
+    border: 0px;
+    color: white;
+}
+
+
+#form-register{
+    display: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+    opacity: 5 !important; /* for chrome */
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #FFFFFF;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #FFFFFF;
+}
+
+:-ms-input-placeholder {  
+   color: #FFFFFF;
+}
+
+button{
+    width: 40%;
+    height: 20px;
+    border: none;
+    background-color: white;
+    opacity: 10;
+}

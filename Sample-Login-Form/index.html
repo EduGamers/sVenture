@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="wrapper">
+        <form id="form-register">
+            <fieldset>
+                <label for="tb-username">Username: </label>
+                <input type="text" id="tb-username" placeholder="Enter username" /><br />
+
+                <label for="tb-password">Password: </label>
+                <input type="password" id="tb-password" placeholder="Enter password" /><br />
+
+                <label for="tb-repeat-pass">Repeat password: </label>
+                <input type="password" id="tb-repeat-pass" placeholder="Enter password" /><br />
+                <button>Register</button>
+            </fieldset>
+        </form>
+        <form id="form-login" class="invisible">
+            <fieldset>
+                <legend>Sign in</legend>
+
+                <label for="tb-username">Username: </label>
+                <input type="text" id="Text1" placeholder="" /><br />
+                <hr />
+                <label for="tb-pass">Password: </label>
+                <input type="password" id="Text2" placeholder="" /><br />
+                <hr />
+                <button>Login</button>
+            </fieldset>
+            <a href="#" id="btn-show-register" class="btn-login-form current">Register</a>
+            <a href="#" id="btn-show-login" class="btn-login-form"> Login </a>
+        </form>
+    </div>
+</body>
+</html>
