@@ -1,0 +1,36 @@
+//Achievements! Wohoo
+//Class achievements
+- OnTimer - влез в час на време
+- Sticky Chair - в рамките на един час (учебен) да не ставаш от стола
+- Gum on your chair - не сядай цял час.
+- Icky - седни на дъвка. (crowd validation?)
+- Fear Master - да не бъдеш изпитан по нито един предмет 2(3) поредни дни в изпитна седмица (requirement - да си в час)
+- Targer Locked - да бъдеш изпитан по всеки един предмет в един ден в изпитна седмица(event week)
+- Happy student - премини всички предмети успешно
+- Fun Attender - бъди на училище 10/20/30/50/100 поредни учебни дни (check-in check-out)
+- All around Attender - влез във всички часове (class check-in)
+- Invincible(?)(предмет) - не получавай двойка (2) по този предмет
+- Bullet Dodger - получи няколко(?) двойки и премини предмета с минимум 4-ка
+- Star - получи няколко(?) шестици (6) по някакъв предмет
+- Super Star - премини (предмет) само със шестици
+- Smart Ass - поправи учителя
+- Board Artist - Бъди(изпитан?) на дъската цял час
+- Kick it! - play sports!
+
+//Outside class achievements
+- Tense meeting - присъствай на родителска среща
+- It's not over! - завърши средно образование
+- Mom's prized child - вземи си матурите с отличен (или над 5?)!
+- I'M IN! - вземи си матурите с отличен 6
+
+//Feat of Strength
+- Experience builder - участвай в (някакво) състезание - math, IT, economics etc.
+- Flex - спечели състезание
+
+//Other
+- Potato - регистрирай се
+- Turnip - събери ?? achivement points
+- Monkey - -||-
+- Human - -||-
+- Master
+- Over Achiever!
