@@ -1,0 +1,15 @@
+What have we done:
+
+- Talked with 2 mentors to get a better picture of what we want to do.
+
+Raya Yunakova said us that we should focus on teachers and how they are adding the whole information and data-base logic... etc.
+
+Ivelin Mollov said us that we should focus on our presentation and student experience - how to evolve them to use our platform. We shoukd be attractive and funny. This is how we'll achieve victory here.
+
+- Divided the problem to sub-problems.
+
+- Made a couple of Mind maps about the project and presentation.
+
+- Did some Front-end and THE JavaScript magic.
+
+- Made a list of achievements and icons for them.
