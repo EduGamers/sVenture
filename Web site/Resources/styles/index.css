@@ -18,33 +18,70 @@ body, header, nav, section, aside, footer, div, ul, li, h1, h2, h3 {
 
 #wrapper {
     margin: 0 auto;
+    width: 85%;
     border: 1px solid black;
-    border-bottom: none;
-    border-top: none;
-    width: 1100px;
-    height: 1000px;   
+    overflow: hidden; 
 }
 
+
 header.main-header {
+    position: relative;
     width: 100%;
-    height: 200px;
+    padding-bottom: 10px;
     border-bottom:  1px solid black;
     background-color: #67ADF3;
 
 }
 
-section {
+    header h1 {
+        display: inline-block;
+        font-size: 4.3em;
+        text-align: left;
+        margin-left: 17px;
+        font-family: Neutraface;
+        color: #334da0;
+        font-weight: normal;
+    }
+
+a {
+    text-decoration: none;
+    color: #334da0;
+}
+
+nav {
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+    .nav-bar li {
+        display: inline-block;
+        padding: 15px;
+        font-size: 1.3em;
+        margin-right: 5px;
+        background-color: #67ADF3;
+    }
+
+    .nav-bar li:active, .nav-bar li:visited {
+        color: #334da0;
+    }
+
+    nav ul li:last-child {
+        padding-left: 30px;
+    }
+
+
+/*section {
     width: 100%;
     height: 600px;
     border-bottom: 1px solid black;
-}
+}*/
 
-body > footer {
+/*body > footer {
     height: 200px;
     width: 100%;
-}
-
-
+}*/
 
 /*COLORS TO USE
     #71be43 - green
@@ -53,47 +90,8 @@ body > footer {
     #1d2453 - darker blue
 */
 
-.logo {
-    font-size: 5.5em;
-    text-align: left;
-    margin-left: 17px;
-    font-family: Neutraface;
-    color: #334da0;
-    height: 100%;
-}
-
-.hover-element {
-    background-color: black;
-
-}
-.logo:hover {
+/*.logo:hover {
     -webkit-filter: blur(2px);
-}
-a {
-    text-decoration: none;
-}
+}*/
 
-.nav-bar li {
-    display: inline-block;
-    padding: 15px;
-    font-size: 25px;
-    margin-right: 5px;
-    background-color: #67ADF3;
-}
 
-.nav-bar li:active {
-    color: #334da0;
-}
-
-.nav-bar li:visited {
-    color: #334da0;
-}
-
-.nav-bar ul {
-    float: right;
-    margin-top: -65px;
- }
-
-.last-li {
-    border-right: none;
-}
