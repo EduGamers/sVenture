@@ -249,8 +249,8 @@ section div.profile {
             height: 40px;
             color: #fff;
             font-size: 1.2em;
-            border: 2px groove purple;
-            background-color: purple;
+            border: 2px groove #67ADF3;
+            background-color: #67ADF3;
         }
 
             .current-ranking ul li span {
@@ -280,5 +280,8 @@ button#push {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    background-color: green;
+    background-color: #0A0;
+    color: white;
+    font-family: Neutraface;
+    font-size: 1em;
 }
