@@ -1,0 +1,104 @@
+body, header, nav, section, aside, footer, div, ul, li, h1, h2, h3 {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size: 1em;
+    vertical-align:baseline;
+    background:transparent;
+    font-family: Neutraface;
+    list-style-type: none;
+}
+@font-face {
+    font-family: Neutraface;
+    src: url(NeutraText-Book.ttf);
+}
+#wrapper {
+    margin: 0 auto;
+    width: 85%;
+    border: 0;
+    overflow: hidden;
+}
+header.main-header {
+    position: relative;
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color: #67ADF3;
+}
+header h1 {
+    display: inline-block;
+    font-size: 4.3em;
+    text-align: left;
+    margin-left: 17px;
+    font-family: Neutraface;
+    color: #334da0;
+    font-weight: normal;
+}
+a {
+    text-decoration: none;
+    color: #334da0;
+}
+nav {
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+.nav-bar li {
+        display: inline-block;
+        padding: 15px;
+        font-size: 1.3em;
+        margin-right: 5px;
+        background-color: #67ADF3;
+    }
+
+    .nav-bar li:active, .nav-bar li:visited {
+        color: #334da0;
+    }
+
+    nav ul li:last-child {
+        position: relative;
+        padding-left: 45px;
+    }
+
+        nav ul li span.profile-thumbnail {
+            display: inline-block;
+            position: absolute;
+            top: 10%;
+            left: 0;
+            width: 40px;
+            height: 40px;
+            background: url('http://placehold.it/50x50') no-repeat center center;
+            border-radius: 50px;
+        }
+.main-section {
+  width: 100%;
+  height: 600px;
+  background-image: url(../images/trophy-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+  .main-section:last-child {
+    float: right;
+  }
+h2 {
+  text-align: center;
+  color: #334da0;
+  font-size: 5em;
+}
+h3 {
+  text-align: center;
+  color: #334da0;
+  font-size: 2em;
+}
+.stats-column {
+  width: 30%;
+  margin: 15px 20px;
+  display: inline-block;
+  border: 3px solid #67ADF3;
+  border-radius: 20px;
+}
+ol li {
+ font-size: 2em;
+}
