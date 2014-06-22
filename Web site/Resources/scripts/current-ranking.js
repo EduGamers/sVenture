@@ -36,7 +36,7 @@ function PushToHTML() {
 
     for (var i = 0; i < 3; i += 1) {
         names[i].innerHTML = usersArray[i].firstName;
-        points[i].innerHTML = usersArray[i].achievementPoints;
+        points[i].innerHTML = usersArray[i].achievementPoints + ' Points';
     }
 }
 
@@ -50,4 +50,10 @@ btn.addEventListener('click', function () {
     nie.achievementPoints += 5;
     Sort();
     PushToHTML();
+
+    if (usersArray[0].firstName === nie.firstName) {
+        var listItems = document.querySelectorAll('.current-ranking li');
+        listItems[0].className = 'user';
+        listItems[1].className = '';
+    }
 });
