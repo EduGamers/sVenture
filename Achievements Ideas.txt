@@ -17,9 +17,11 @@
 - Board Artist - Бъди(изпитан?) на дъската цял час
 - Kick it! - play sports!
 - Teacher's pet - Помогни/Асистирай на преподавателя поне с 1 урок
-- "This girl is on fire!" - Изкарай 6 на 5 поредни теста през учебната година.
+DONE - "This girl is on fire!" - Изкарай 6 на 5 поредни теста през учебната година.
 - Are you sure you're not cheating? - Изкарай 6 на 10 поредни изпита?
-- Pokemon master - Изкарай по една оценка от всички.
+DONE - Pokemon master - Изкарай по една оценка от всички.
+DONE - Regular - Come everyday to school in 50 consecutive days.
+- Heavy Sleeper - Come late for a test because you slept in.
 
 //Outside class achievements
 - I think I have an arrhythmia  - присъствай на родителска среща
