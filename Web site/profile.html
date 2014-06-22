@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>User Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Resources/styles/profile.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <header class="main-header">
+            <h1>
+                <a href="index.html">
+                    edventure
+                </a>
+            </h1>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Rankings</a>
+                    </li>
+                    <li>
+                        <a href="#">Achievements</a>
+                    </li>
+                    <li>
+                        <span class="profile-thumbnail"></span>
+                        <a href="profile.html">View Profile</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="profile">
+                <div class="profile-image">
+                    <img src="http://placehold.it/300x300" alt="A picture of me" />
+                </div>
+                <div class="profile-info">
+                    <p>
+                        <span>Name:</span> Teodor <br />
+                        <span>Age:</span> 16 <br />
+                        <span>Level:</span> 3 <br />
+                        <span>School: </span> Lorem Ipsum <br />
+                        <span>Class:</span> 10 A <br />
+                    </p>
+                </div>
+            </div>
+            <div class="experience-bar">
+
+            </div>
+            <div class="achievements">
+                <div class="recent">
+                    <span>Recent Achievements</span>
+                    <div class="recent-ach first"></div>
+                    <div class="recent-ach second"></div>
+                    <div class="recent-ach third"></div>
+                    <div class="recent-ach fourth"></div>
+                </div>
+                <div class="progress">
+                    <span>In progress...</span>
+                    <div class="progress-ach first"></div>
+                    <div class="progress-ach second"></div>
+                    <div class="progress-ach third"></div>
+                    <div class="progress-ach fourth"></div>
+                </div>
+            </div>
+            <div class="current-ranking">
+                <ul>
+                    <li class="current-points-bar">
+                        <span class="userName"></span>
+                        <span class="userPoints"></span> Points
+                    </li>
+                    <li class="current-points-bar user">
+                        <span class="userName"></span>
+                        <span class="userPoints"></span> Points
+                    </li>
+                    <li class="current-points-bar">
+                        <span class="userName"></span>
+                        <span class="userPoints"></span> Points
+                    </li>
+                </ul>
+                <button id="push">push</button>
+            </div>
+        </section>
+        <footer>
+
+        </footer>
+    </div>
+    <script src="Resources/scripts/current-ranking.js"></script>
+</body>
+</html>
